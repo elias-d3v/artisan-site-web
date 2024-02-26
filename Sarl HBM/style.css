@@ -1,0 +1,19 @@
+
+body {
+    background-color: #e2e2f9;
+    background-image: radial-gradient(#444cf7 0.5px, #e2e2f9 0.5px);
+    background-size: 10px 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+

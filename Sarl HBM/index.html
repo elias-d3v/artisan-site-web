@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Sarl HBM</title>
+    <link rel="icon" href="photos/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="photos/logo.png">
+    <script src="script.js" defer></script>
+
+    
+</head>
+<body>
+    <nav id="header">  
+        <img class="logo" src="photos/logo.png">
+        <ul>
+            <li><a href="index.html" class="boutton">Accueil</a></li>
+            <li><a href="#div2" onclick="scrollToTarget(event, 'div2')" class="boutton">Services</a></li>
+            <li><a href="#div3" onclick="scrollToTarget(event, 'div3')" class="boutton" class="boutton">À propos</a></li>
+            <li><a href="#div4" onclick="scrollToTarget(event, 'div4')" class="boutton" class="boutton">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="background-container">
+        <div id="div1"></div>
+        <div class="text-overlay1">
+            <h1>SARL HBM</h1>
+        </div>
+        <div class="text-overlay2">
+            <h2>Artisan serrurier/métallique</h2>
+        </div>
+        </section>
+    <div id="div2">
+        <h1>Services</h1>
+    </div>
+    <div class="grid-services">
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+            <a href="photos/blur1.jpeg" class="lien-photo">
+                <img src="photos/blur1.jpeg" alt="Portail" >
+                <div class="photo-hover">Description</div>
+            </a>
+    </div>
+    <div id="div3">
+        <h1>À propos</h1>
+    </div>
+    <div class="flex-container">
+        <div class="vertical big">Grand vertical gauche</div>
+        <div class="horizontal-container">
+          <div class="horizontal top">Horizontal haut</div>
+          <div class="horizontal bottom">Horizontal bas</div>
+        </div>
+        <div class="vertical big">Grand vertical droite</div>
+      </div>
+
+    <div id="div4">
+        <h1>Contact</h1>
+    </div>
+    <div id="footer"></div>
+    <button onclick="topFunction()" id="monBtn" title="Retour en haut de page">▲</button>
+</body>
+</html>
