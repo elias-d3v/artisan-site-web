@@ -114,8 +114,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: blueviolet;
-    background-image: url('photos/blur1.jpeg');
+    background-image: url('../photos/blur1.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,9 +171,9 @@
     border-radius: 0% 14% 54% 0% / 25% 25% 25% 22%;
     color: #a7d2f2;
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: baseline; /* Alignement à gauche */
-    height: 200px; /* Hauteur du conteneur (ajustez selon vos besoins) */
+    align-items: center; 
+    justify-content: baseline; 
+    height: 200px; 
 
 }
 
@@ -237,9 +236,9 @@
     border-radius: 0% 14% 54% 0% / 25% 25% 25% 22%;
     color: #a7d2f2;
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: baseline; /* Alignement à droite */
-    height: 200px; /* Hauteur du conteneur (ajustez selon vos besoins) */
+    align-items: center; 
+    justify-content: baseline; 
+    height: 200px; 
 }
 
 #div3 h1{
@@ -254,13 +253,12 @@
 }
 
 .flex-container {
-    display: flex; /* Hauteur du conteneur, ajustez selon les besoins */
+    display: flex; 
     height: 600px;
   }
   
   .vertical.big {
-    flex-grow: 1; /* Les blocs verticaux grandissent pour occuper l'espace disponible */
-    /* Ajustez la largeur si nécessaire */
+    flex-grow: 1;
     width: 30%;
     background-color: #303030;
   }
@@ -268,26 +266,23 @@
   .horizontal-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Répartit l'espace verticalement entre les éléments */
-    flex-grow: 2; /* Permet au conteneur horizontal de prendre plus d'espace */
+    justify-content: space-between; 
+    flex-grow: 2; 
     margin: 0px 20px;
     width: 40%;
   }
   
   .horizontal {
-    flex-grow: 1; /* Fait en sorte que les blocs horizontaux prennent l'espace disponible */
+    flex-grow: 1; 
     background-color: #677179;
   }
   
   .horizontal.top {
-    /* Styles spécifiques pour le bloc horizontal du haut si nécessaire */
     padding-bottom: 20px;
     height: 50%;
   }
   
   .horizontal.bottom {
-    /* Styles spécifiques pour le bloc horizontal du bas si nécessaire */
-     /* S'assure que le bloc horizontal du bas est aligné au bas du conteneur */
      margin-top: 20px;
      height: 50%;
 
@@ -306,9 +301,9 @@
     border-radius: 0% 14% 54% 0% / 25% 25% 25% 22%;
     color: #a7d2f2;
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: baseline; /* Alignement à droite */
-    height: 200px; /* Hauteur du conteneur (ajustez selon vos besoins) */
+    align-items: center;
+    justify-content: baseline; 
+    height: 200px; 
 }
 
 #div4 h1{
