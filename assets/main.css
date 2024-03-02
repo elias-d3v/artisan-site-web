@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 /*       font-family: 'Outfit';       */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*       font-family: 'Roboto';       */
 
-@keyframes myAnim {
-	0% {
-		opacity: 1;
-		transform: scale(1);
-	}
 
-	100% {
-		opacity: 0;
-		transform: scale(0.6);
-	}
-}
-/*      animation: myAnim 2s ease 0s 1 normal forwards;         */
+
 
 
 
@@ -260,8 +252,22 @@
   .vertical.big {
     flex-grow: 1;
     width: 30%;
-    background-color: #303030;
+    background-color: #4F6D7A;
+    border: 3px solid #82A0BC;
+    border-radius: 5px;
+    overflow: auto;
+
   }
+
+  .container-title-big {
+    background-color: #82A0BC; 
+    color: #fff; 
+    padding: 15px 10px; 
+    margin-bottom: 15px; 
+    font-size: 22px; 
+    font-family: 'Outfit';
+
+}
   
   .horizontal-container {
     display: flex;
@@ -274,19 +280,32 @@
   
   .horizontal {
     flex-grow: 1; 
-    background-color: #677179;
+    background-color: #82A0BC;
   }
   
   .horizontal.top {
-    padding-bottom: 20px;
     height: 50%;
+    border: 3px solid #4F6D7A;
+    border-radius: 5px;
+    overflow: auto;
   }
   
   .horizontal.bottom {
-     margin-top: 20px;
+     margin-top: 40px;
      height: 50%;
-
+     border: 3px solid #4F6D7A;
+     border-radius: 5px;
+     overflow: auto;
   }
+
+  .container-title-small {
+    background-color: #4F6D7A; 
+    color: #fff;
+    padding: 15px 10px; 
+    margin-bottom: 15px; 
+    font-size: 22px; 
+    font-family: 'Outfit';
+}
 
 
 /* ----------------------- */
@@ -310,6 +329,87 @@
     font-family: 'Outfit';
     font-size: 45px;
     padding-left: 105px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .separation {
+  height: 1px;
+  width: 100%;
+  background-color: #0066cc;
+}
+
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+form .corps-formulaire .groupe {
+  position: relative;
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+}
+
+form .corps-formulaire .gauche .groupe input{
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #c9c9c9;
+  outline-color: #0066cc;
+  border-radius: 5px;
+}
+
+form .corps-formulaire .gauche .groupe i{
+  position: absolute;
+  left: 0;
+  top: 25px;
+  padding: 9px 8px;
+  color: #0066cc;
+}
+
+form .corps-formulaire .droite {
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe {
+  height: 100%;
+}
+
+form .corps-formulaire .droite textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 2px solid #0066cc;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  height: 72%;
+}
+
+form .pied-formulaire button{
+  margin-top: 10px;
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width:920px){
+  form .corps-formulaire .droite {
+    margin-left: 0px;
+  }
 }
 
 /* ----------------------- */
