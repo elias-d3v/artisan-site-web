@@ -157,7 +157,7 @@
 
 #div2 {
     height: 170px;
-    margin: 50px 0px;
+    margin: 60px 0px;
     background: rgb(9,9,121);
     background: linear-gradient(90deg, rgba(9,9,121,1) 5%, rgba(7,56,152,1) 43%, rgba(55,168,249,1) 100%);
     border-radius: 0% 14% 54% 0% / 25% 25% 25% 22%;
@@ -222,7 +222,7 @@
 
 #div3 {
     height: 170px;
-    margin: 50px 0px;
+    margin: 60px 0px;
     background: rgb(9,9,121);
     background: linear-gradient(90deg, rgba(9,9,121,1) 5%, rgba(7,56,152,1) 43%, rgba(55,168,249,1) 100%);
     border-radius: 0% 14% 54% 0% / 25% 25% 25% 22%;
@@ -314,7 +314,7 @@
 
 #div4 {
     height: 170px;
-    margin-top: 50px;
+    margin: 60px 0px;
     background: rgb(9,9,121);
     background: linear-gradient(90deg, rgba(9,9,121,1) 5%, rgba(7,56,152,1) 43%, rgba(55,168,249,1) 100%);
     border-radius: 0% 14% 54% 0% / 25% 25% 25% 22%;
@@ -329,6 +329,18 @@
     font-family: 'Outfit';
     font-size: 45px;
     padding-left: 105px;
+}
+
+form{
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+} 
+
+form h1 {
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .form-container {
