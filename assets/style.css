@@ -8,17 +8,16 @@ body {
     background-size: 10px 10px;
 }
 
-
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-}
-
+  }
+  
 nav ul li {
     margin: 0 30px;
-}
+  }
 
 p {
     font-family: 'Outfit';

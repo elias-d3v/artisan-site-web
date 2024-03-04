@@ -37,19 +37,34 @@
 /* ----------------------- */
 
 
+
+
 #header {
-    height: 150px;
-    background-color: #cae8ff;
-    position: fixed;
-    top: 0; 
-    left: 0;
-    width: 100%;
-    z-index: 1000; 
-    border-radius: 9px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    box-shadow:rgb(128, 180, 219) 1px 3px 33px;
+  height: 150px;
+  background-color: #cae8ff;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  border-radius: 9px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgb(128, 180, 219) 1px 3px 33px;
+  padding: 0 20px; /* Ajouté pour l'espacement autour des éléments à l'intérieur du header */
+}
+
+/* Ajout pour styliser les liens */
+.boutton {
+  text-decoration: none;
+  color: #333; /* Couleur du texte */
+  font-weight: bold; /* Rend le texte en gras */
+}
+
+/* Style supplémentaire pour le logo */
+.logo {
+  height: 100px; /* Ajustez selon la taille de votre logo */
 }
 
 .logo {
@@ -189,6 +204,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
   }
   
   .lien-photo {
@@ -418,15 +434,50 @@ form .pied-formulaire button:hover{
   transform: scale(1.05);
 }
 
+
+
+/* ----------------------- */
+
+
+
+#footer {
+    height: 150px;
+    margin-top: 30px;
+    background-color: #cae8ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: 'Outfit';
+    font-size: 15px;
+    padding: 0px 20px;
+    }
+
+
+
+/* ----------------------- */
+
+
 @media screen and (max-width:920px){
   form .corps-formulaire .droite {
     margin-left: 0px;
   }
 }
 
-/* ----------------------- */
-#footer {
-    height: 150px;
-    margin-top: 30px;
-    background-color: #cae8ff;
-    }
+@media (max-width: 768px) {
+  .logo {
+      height: 75px; /* Réduction de la taille du logo */
+  }
+
+  nav ul li {
+      margin: 0 10px; /* Réduction de l'espacement entre les éléments de la liste */
+  }
+
+  nav ul {
+      flex-wrap: wrap;
+  }
+  .text-overlay2 h2 {
+    text-align: center;
+  }
+}
+  
