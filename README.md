@@ -1,1 +1,1 @@
-Ce site est actuellement en cours de développement. Ce projet porte sur la création d'un site web pour un artisan. De manière à valider mes acquis, j'ai eu l'occasion d'utiliser des languages tel que le JavaScript que je maitrise depuis peu.
+Ce site est actuellement en cours de développement. Ce projet porte sur la création d'un site web pour un artisan. C'est ma toute première réalisation. 
